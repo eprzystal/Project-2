@@ -111,12 +111,28 @@ footer {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width:350px) {
+    
 
 header {
-    height: 25px;
+    height: 30px;
     background-color: #2b6ca3;
   }
+  
+.container {
+    width: 360px;
+}
+  
+  #website-logos {
+    float: bottom-left;
+    position: relative;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+#website-logos :hover {
+    background-color: #bcb1a8;
+}
   
 .logo1 {
     display: none;
@@ -149,11 +165,11 @@ main {
 }
 
 h4 {
-    font-size: 75%;
+    font-size: 5%;
 }
 
 h5 {
-    font-size: 75%;
+    font-size: 50%;
 }
 
 footer {
