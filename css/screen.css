@@ -2,25 +2,39 @@ html{
     font-family: 'Open Sans', sans-serif;
 }
 
-#logo header {
-    height: 100px;
+#website-logos {
+    float: right;
+    position: relative;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+#website-logos :hover {
+    background-color: #bcb1a8;
+}
+
+header {
+    height: 150px;
+}
+
+.logo1 {
+    max-width: 150%;
     position: relative;
     padding-bottom: 25px;
-    position: relative;
+    float: left;
     float: left;
     padding: 20px;
 }
-#logo img {
-    max-width: 50%;
-    padding: 20px;
+
+.logo2 {
+  display: none;
 }
 
 .container {
     width: 100%;
     margin: 0 auto;
+    text-align: center;
 }
-
-
 
 #nav-links {
     max-width: 50%;
@@ -28,7 +42,7 @@ html{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.45em;
     font-weight: 600;
-    text-indent: 40px;
+    text-indent: 90px;
     float: right;
     padding: 20px;
     background-color: #5994bc;
@@ -56,14 +70,8 @@ main {
     padding-bottom: 75px;
 }
 
-main img{
-    padding-top: 20px;
-}
-
-.container img{
-	width: 100%;
-	margin: 0 auto;
-    position: relative;
+#scroll-images {
+    overflow: scroll;
 }
 
 h4 {
@@ -102,28 +110,57 @@ footer {
     padding: 40px;
 }
 
-#website-logos {
-    float: center;
-    position: relative;
-    padding-top: 40px;
-}
 
-@media screen and (max-width: 330px) {
-  header {
+@media screen and (max-width: 800px) {
+
+header {
+    height: 25px;
     background-color: #2b6ca3;
   }
   
-  #logo {
-    background-image: url("/images/ISUD_logo_stacked.jpg");
-    padding: 20px;  
+.logo1 {
+    display: none;
+}
+  
+.logo2 {
+    height: 350px;
+    float: left;
+    padding: 40px; 
+}
+
+main {
+    height: 350px;
+    background-color: #fff;
+    float: center;
+}
+
+.image1 {
+    display: none;
+}
+
+.image2{
+    max-width: auto;
+    position: relative;
+    float: center;
+}
+
+#nav-links {
+    display: none;
 }
 
 h4 {
-    font-size: 50%;
+    font-size: 75%;
 }
 
 h5 {
-    font-size: 50%;
+    font-size: 75%;
 }
+
+footer {
+    height: 150px;
 }
+
+}
+
+
 
