@@ -1,0 +1,129 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#logo header {
+    height: 100px;
+    position: relative;
+    padding-bottom: 25px;
+    position: relative;
+    float: left;
+    padding: 20px;
+}
+#logo img {
+    max-width: 50%;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+#nav-links {
+    max-width: 50%;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.45em;
+    font-weight: 600;
+    text-indent: 40px;
+    float: right;
+    padding: 20px;
+    background-color: #5994bc;
+    border: 20px #23668c;
+    border-bottom-style: ridge;
+}
+
+#nav-links li {
+	float: left;
+}
+
+#nav-links li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#nav-links li a:hover {
+	text-decoration: none;
+    color: #8dc3ea;
+}
+
+main {
+    background-color: #e1e2e1;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+main img{
+    padding-top: 20px;
+}
+
+.container img{
+	width: 100%;
+	margin: 0 auto;
+    position: relative;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25em;
+    font-weight: 600;
+    color: white;
+    line-height: 1.5em;
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 200;
+    color: white;
+    line-height: 1.5em;    
+}
+
+footer {
+    width: 100%;
+    position: relative;
+    background-color: #8c8279;
+    height: 200px;
+}
+
+#left-footer {
+	float: left;
+	width: 30%;
+    padding: 40px;
+}
+
+#right-footer {
+    position: relative;
+	float: right;
+	width: 30%;
+    padding: 40px;
+}
+
+#website-logos {
+    float: center;
+    position: relative;
+    padding-top: 40px;
+}
+
+@media screen and (max-width: 330px) {
+  header {
+    background-color: #2b6ca3;
+  }
+  
+  #logo {
+    background-image: url("/images/ISUD_logo_stacked.jpg");
+    padding: 20px;  
+}
+
+h4 {
+    font-size: 50%;
+}
+
+h5 {
+    font-size: 50%;
+}
+}
+
